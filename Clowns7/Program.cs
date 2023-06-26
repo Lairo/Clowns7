@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Clowns7
+﻿namespace Clowns7
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            TallGuy tallGuy = new TallGuy() { Height = 76, Name = "Jimmy" };
+            tallGuy.TalkAboutYourself();
         }
     }
 }
